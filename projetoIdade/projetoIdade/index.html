@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horas do dia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onchange="gravar()" id="estilo">
+    <header>
+      <h1 id="titulo">Identidade</h1>
+    </header>
+
+    <section id="s">
+      <p>
+        <label for="idade">Ano de nascimento</label>
+        <input type=" number" id="idade" />
+      </p>
+
+      <p>
+        Sexo :
+        <label for="masc">Masculino</label>
+        <input type="radio" id="masc" name="rad" checked />
+
+        <label for="fem">Feminino</label>
+        <input type="radio" id="fem" name="rad" />
+      </p>
+      <div id="resultado">
+       <button onclick="clicar">resultado</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
